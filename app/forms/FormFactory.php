@@ -14,6 +14,8 @@ class FormFactory
 	public function create(): Form
 	{
 		$form = new Form;
+		//$form->setTranslator(...);
+		//$form->setRenderer(...);
 		return $form;
 	}
 }
